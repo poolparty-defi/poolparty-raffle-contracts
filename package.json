@@ -1,0 +1,42 @@
+{
+  "name": "poolparty-raffle-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "truffle compile --all",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poolparty-defi/poolparty-raffle-contracts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poolparty-defi/poolparty-raffle-contracts/issues"
+  },
+  "homepage": "https://github.com/poolparty-defi/poolparty-raffle-contracts#readme",
+  "dependencies": {
+    "@chainlink/contracts": "^0.2.2",
+    "@openzeppelin/contracts": "^4.3.2",
+    "@openzeppelin/contracts-upgradeable": "^4.3.2",
+    "@openzeppelin/upgrades": "^2.8.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/truffle-upgrades": "^1.9.1",
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "dotenv": "^10.0.0",
+    "ganache-cli": "^6.12.2",
+    "ganache-core": "^2.13.2",
+    "mocha-junit-reporter": "^2.0.0",
+    "solc": "^0.8.9",
+    "solhint": "^3.3.6",
+    "solidity-coverage": "^0.7.17",
+    "truffle": "^5.4.13"
+  }
+}
